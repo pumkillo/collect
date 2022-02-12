@@ -80,4 +80,10 @@ class Collect
         array_splice($idx, $length);
         return $this;
     }
+
+    public function delete($key): Collect
+    {
+        unset($this->array[$key]);
+        return $this;
+    }
 }
