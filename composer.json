@@ -1,0 +1,24 @@
+{
+    "name": "pumkilo/collect",
+    "description": "Module for working with arrays ",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "pumkillo",
+            "email": "pumkillo@mail.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4 | ^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Collect\\": "Src/"
+        },
+        "files": [
+            "Src/helpers.php"
+        ]
+    }
+}
